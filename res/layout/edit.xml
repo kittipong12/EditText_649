@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:text="Nickname" />
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt11"
+        android:layout_marginTop="41dp"
+        android:text="Sex" />
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt12"
+        android:layout_marginTop="38dp"
+        android:text="Age" />
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt13"
+        android:layout_marginTop="37dp"
+        android:text="Brithday" />
+
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt14"
+        android:layout_marginTop="34dp"
+        android:text="Faculty" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt15"
+        android:layout_marginTop="43dp"
+        android:text="Major" />
+
+    <EditText
+        android:id="@+id/etxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt11"
+        android:layout_alignBottom="@+id/txt11"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/txt11"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt12"
+        android:layout_alignBottom="@+id/txt12"
+        android:layout_alignRight="@+id/etxt1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt13"
+        android:layout_alignBottom="@+id/txt13"
+        android:layout_alignRight="@+id/etxt2"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt14"
+        android:layout_alignBottom="@+id/txt14"
+        android:layout_alignRight="@+id/etxt3"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt15"
+        android:layout_alignBottom="@+id/txt15"
+        android:layout_alignRight="@+id/etxt4"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt6"
+        android:layout_alignBottom="@+id/txt6"
+        android:layout_alignRight="@+id/etxt5"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/etxt6"
+        android:layout_marginBottom="26dp"
+        android:text="save" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etxt7"
+        android:layout_alignBottom="@+id/etxt7"
+        android:layout_alignParentLeft="true"
+        android:text="Grade" />
+
+    <EditText
+        android:id="@+id/etxt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etxt6"
+        android:layout_below="@+id/etxt6"
+        android:ems="10" />
+
+</RelativeLayout>
